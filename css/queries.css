@@ -1,0 +1,1412 @@
+/* ------------------------------------------ */
+/*      BELLOW 1376px (Smaller desktops)      */
+/* ------------------------------------------ */
+
+@media (max-width: 86em) {
+   /* -- GENERAL -- */
+
+   html {
+      font-size: 54%;
+   }
+
+   .container {
+      max-width: 120rem;
+   }
+
+   .paragraph-primary {
+      font-size: 2rem;
+      line-height: 1.65;
+   }
+
+   .heading-primary {
+      font-size: 4.4rem;
+      margin-bottom: 4rem;
+   }
+
+   .heading-primary-thin {
+      margin-bottom: 6rem;
+   }
+
+   /* -- NAV -- */
+
+   .header .nav {
+      grid-template-columns: 1fr 1.9fr 1fr;
+   }
+
+   .header .nav-logo {
+      width: 21%;
+      top: 0.7rem;
+      left: 2.1rem;
+   }
+
+   .header .transition .nav-logo.large {
+      width: 25%;
+      top: 1.3rem;
+      left: 1.8rem;
+   }
+
+   .header .nav-ul {
+      margin-left: 8rem;
+   }
+
+   /* -- HERO -- */
+
+   .hero-logo {
+      width: 36%;
+   }
+
+   /* -- INTRODUCTION -- */
+
+   .introduction-section {
+      height: 89rem;
+   }
+
+   .introduction-text {
+      margin-top: 18rem;
+   }
+
+   /* -- FEATURES -- */
+
+   .feature-section {
+      scroll-margin-top: 6.6rem;
+   }
+
+   .brush {
+      transform: translate(355%, -300%);
+   }
+
+   .feature-cell {
+      width: 50rem;
+   }
+
+   .feature-cell div h3 {
+      font-size: 2.4rem;
+   }
+
+   /* -- STORY -- */
+
+   .story-section {
+      height: 97rem;
+   }
+
+   /* -- EXPLORATION -- */
+
+   .brush-yellow {
+      transform: translate(15%, -210%) rotate(3deg);
+   }
+
+   .kamuro strong::before {
+      margin-top: -73.7rem;
+      margin-left: -96.7rem;
+      transform: scale(0.15);
+   }
+
+   .sotenbori strong::before {
+      margin-top: -76rem;
+      margin-left: -57rem;
+      transform: scale(0.19);
+   }
+
+   /* -- GAMEPLAY -- */
+
+   .gameplay-section {
+      height: 89rem;
+   }
+
+   .gameplay-text {
+      margin-top: 18rem;
+   }
+
+   /* -- MAIN CAST -- */
+
+   .main-brush {
+      width: 52%;
+      transform: translate(95%, 177%) rotate(-24deg);
+   }
+
+   .main-img {
+      width: 78%;
+   }
+
+   /* -- SIDE CAST -- */
+
+   .character.jiro {
+      height: 67rem;
+   }
+
+   .character.ryuji {
+      height: 67rem;
+   }
+
+   .character.kaoru {
+      height: 67rem;
+   }
+
+   .paragraph-primary.bio {
+      font-size: 2.4rem;
+   }
+
+   .character-text.last {
+      margin-top: 16rem;
+   }
+
+   /* -- MAIN CAST -- */
+
+   .edition-section {
+      scroll-margin-top: 6.6rem;
+   }
+
+   .cart-brush {
+      width: 20%;
+      transform: translate(303%, -210%);
+   }
+
+   .cart {
+      width: 45rem;
+   }
+
+   .cart-info {
+      height: 33rem;
+      font-size: 2.6rem;
+   }
+
+   .cart-price {
+      font-size: 5rem;
+   }
+
+   .cart-btn button {
+      font-weight: 400;
+      font-size: 3rem;
+   }
+
+   .l-e {
+      font-size: 1.3rem;
+      font-weight: 800;
+      top: 3.1rem;
+      right: -4.9rem;
+   }
+
+   .btn-close {
+      transform: translate(116rem, -2rem);
+   }
+
+   /* -- GAME -- */
+
+   .game-section {
+      height: 51rem;
+   }
+
+   .game-text {
+      margin: 6rem 0 0rem 20rem;
+   }
+
+   .game-btn {
+      margin-top: 3rem;
+   }
+
+   /* -- CTA -- */
+
+   .cta-section {
+      height: 80rem;
+      scroll-margin-top: 6.7rem;
+   }
+
+   .ybrush {
+      transform: translate(535%, -106%) rotate(1deg);
+   }
+
+   .cta-box {
+      width: 180%;
+   }
+   .cta-content {
+      width: 39%;
+      gap: 4.2rem;
+      padding: 5rem 1rem 0 3.5rem;
+   }
+   .cta-img {
+      width: 61%;
+   }
+
+   .cta-first {
+      gap: 1rem;
+   }
+
+   .cta-btn {
+      width: 56%;
+   }
+
+   .cta-form {
+      gap: 0;
+   }
+
+   .cta-form select {
+      font-size: 1.65rem;
+   }
+
+   /* -- OTHER GAMES -- */
+
+   .games-section {
+      height: 27rem;
+   }
+
+   .yakuza7-logo {
+      width: 30rem;
+   }
+
+   .ishin-logo {
+      width: 23rem;
+   }
+
+   .judgment-logo {
+      width: 30rem;
+   }
+
+   .gaiden-logo {
+      width: 25rem;
+   }
+
+   /* -- FOOTER -- */
+
+   .footer-links {
+      font-size: 1.6rem;
+   }
+
+   .footer-info {
+      margin-left: 27.45rem;
+      width: 65%;
+   }
+}
+
+/* -------------------------------- */
+/*      BELLOW 944px (Tablets)      */
+/* -------------------------------- */
+
+@media (max-width: 59em) {
+   /* -- GENERAL -- */
+
+   .container {
+      max-width: 90rem;
+   }
+
+   .grid {
+      gap: 5rem;
+   }
+
+   .grid--cols-3 {
+      grid-template-columns: 2fr 0 4fr;
+   }
+
+   .paragraph-primary {
+      line-height: 1.6;
+   }
+
+   .heading-primary {
+      font-size: 3.6rem;
+      margin-bottom: 3rem;
+   }
+
+   .heading-tertiary {
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      margin-bottom: 0.5rem;
+   }
+
+   .heading-primary-thin {
+      margin-bottom: 6rem;
+   }
+
+   .heading-tertiary-thin {
+      font-weight: 400;
+      letter-spacing: 1.8px;
+   }
+
+   .margin-b-m {
+      margin-bottom: 4rem;
+   }
+
+   /* -- NAV -- */
+
+   .header .nav {
+      grid-template-columns: 1fr 2.2fr 1fr;
+   }
+
+   .header .nav-logo {
+      top: 0.9rem;
+   }
+
+   .header .transition .nav-logo.large {
+      width: 26%;
+      top: 1.3rem;
+      left: 1.8rem;
+   }
+
+   .header .nav-ul {
+      margin-left: 8rem;
+   }
+
+   .header .nav-btns {
+      gap: 4rem;
+   }
+
+   /* -- HERO -- */
+
+   .hero-logo {
+      width: 36%;
+   }
+
+   /* -- PLATFORM -- */
+
+   .platform-section {
+      padding-bottom: 4rem;
+   }
+
+   .platform-section span {
+      font-size: 1.4rem;
+   }
+
+   .platform-logos {
+      padding-top: 0;
+      gap: 3rem;
+   }
+
+   .gamepass {
+      width: 130%;
+   }
+
+   /* -- INTRODUCTION -- */
+
+   .introduction-section {
+      height: 61rem;
+   }
+
+   .introduction-text {
+      margin-top: 14rem;
+   }
+
+   .introduction-text h4 {
+      letter-spacing: 1px;
+   }
+
+   /* -- FEATURES -- */
+
+   .feature-section {
+      scroll-margin-top: 6.7rem;
+   }
+
+   .brush {
+      /* top: 6.2em;
+      right: 10.3rem; */
+      width: 20%;
+      transform: translate(321%, -345%);
+   }
+
+   .feature-cell {
+      width: 39rem;
+   }
+
+   .feature-cell div {
+      height: 6rem;
+   }
+
+   .feature-cell div h3 {
+      font-size: 2.2rem;
+   }
+
+   /* -- STORY -- */
+
+   .story-section {
+      height: 75rem;
+      scroll-margin-top: 15rem;
+   }
+
+   .story-section div {
+      gap: 7rem;
+   }
+
+   .story-text {
+      margin-top: 18rem;
+   }
+
+   .display {
+      display: none;
+   }
+
+   /* -- EXPLORATION -- */
+
+   .exploration-section {
+      scroll-margin-top: 22rem;
+   }
+
+   .exp-p div {
+      width: 100%;
+   }
+
+   .brush-yellow {
+      width: 31%;
+      transform: translate(15%, -242%) rotate(3deg);
+   }
+
+   .kamuro strong::before {
+      margin-top: -72.1rem;
+      margin-left: -88.9rem;
+      transform: scale(0.13);
+   }
+
+   .sotenbori strong::before {
+      margin-top: -73.9rem;
+      margin-left: -64rem;
+      transform: scale(0.16);
+   }
+
+   .modal1 {
+      top: 25rem;
+   }
+
+   .modal2 {
+      top: 25rem;
+   }
+
+   .modal-kamuro {
+      width: 85rem;
+   }
+
+   .modal-sotenbori {
+      width: 85rem;
+   }
+
+   /* -- GAMEPLAY -- */
+
+   .gameplay-section {
+      height: 61rem;
+      scroll-margin-top: 23rem;
+   }
+
+   .gameplay-text {
+      margin-top: 14rem;
+   }
+
+   /* -- MAIN CAST -- */
+
+   .main-cast-section {
+      scroll-margin-top: 25rem;
+   }
+
+   .main-cast-text {
+      margin: 1rem 0 0 11rem;
+      width: 82%;
+   }
+
+   .main-brush {
+      width: 53%;
+      transform: translate(91%, 178%) rotate(-24deg);
+   }
+
+   .main-img {
+      width: 80%;
+   }
+
+   .heading-primary.main {
+      margin-bottom: 3rem;
+      font-size: 3.2rem;
+   }
+
+   .border-b {
+      font-size: 2.4rem;
+   }
+
+   .slider-container {
+      margin-top: 3rem;
+   }
+
+   .btn-close {
+      transform: translate(91rem, -2rem);
+   }
+
+   /* -- SIDE CAST -- */
+
+   .character.jiro {
+      height: 46rem;
+   }
+
+   .character.ryuji {
+      height: 46rem;
+   }
+
+   .character.kaoru {
+      height: 46rem;
+   }
+
+   .paragraph-primary.bio {
+      font-size: 2rem;
+   }
+
+   .heading-secondary.name {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+   }
+
+   .character-text.middle {
+      width: 80%;
+      margin: 8rem 0 0 13rem;
+   }
+
+   .character-text {
+      margin: 9rem 0 0 5rem;
+      width: 72%;
+   }
+
+   .character-text.last {
+      margin-top: 9rem;
+   }
+
+   /* -- EDITIONS -- */
+
+   .edition-section {
+      height: 76rem;
+      scroll-margin-top: 6.7rem;
+   }
+
+   .cart-brush {
+      width: 22%;
+      transform: translate(276%, -243%);
+   }
+
+   .cart {
+      width: 36rem;
+   }
+
+   .cart-info {
+      height: 30rem;
+      font-size: 2.3rem;
+   }
+
+   .cart-info.gap {
+      gap: 0;
+   }
+
+   .cart-price {
+      padding: 1.7rem 0 0rem 0;
+   }
+
+   .cart-btn button {
+      font-weight: 400;
+      font-size: 3rem;
+   }
+
+   .l-e {
+      font-size: 1.7rem;
+      font-weight: 800;
+      top: 2.1rem;
+      right: -3.9rem;
+   }
+
+   /* -- GAME -- */
+
+   .game-section {
+      height: 35.3rem;
+   }
+
+   .game-text {
+      margin: 4.5rem 0 0rem 13rem;
+   }
+
+   .game-btn {
+      font-size: 1.8rem;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+   }
+
+   .p-q-font {
+      font-size: 1.8rem;
+   }
+
+   .p-q-h2 {
+      font-size: 3.4rem;
+      margin-bottom: 2rem;
+   }
+
+   .game-h4 {
+      font-size: 1.2rem;
+   }
+
+   /* -- CTA -- */
+
+   .cta-section {
+      height: 78rem;
+      scroll-margin-top: 6.6rem;
+   }
+
+   .ybrush {
+      width: 15%;
+      transform: translate(444%, -115%) rotate(1deg);
+   }
+
+   .cta-box {
+      width: 101%;
+      max-width: 127rem;
+      border-radius: 0;
+   }
+
+   .cta-content {
+      width: 39%;
+      gap: 3.2rem;
+      padding: 5rem 1rem 0 3.5rem;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+   }
+   .cta-img {
+      width: 61%;
+   }
+
+   .cta-first {
+      gap: 1rem;
+   }
+
+   .cta-btn {
+      width: 59%;
+   }
+
+   .cta-form {
+      gap: 0;
+   }
+
+   .cta-form input {
+      padding: 0.8rem;
+   }
+
+   .cta-form select {
+      padding: 0.8rem;
+   }
+
+   /* -- OTHER GAMES -- */
+
+   .games-section {
+      height: 24rem;
+   }
+
+   .game-logos {
+      margin: 0 4rem 0 4rem;
+      gap: 3rem;
+   }
+
+   .yakuza7-logo {
+      width: 23rem;
+   }
+
+   .ishin-logo {
+      width: 18rem;
+   }
+
+   .judgment-logo {
+      width: 23rem;
+   }
+
+   .gaiden-logo {
+      width: 21rem;
+   }
+
+   /* -- FOOTER -- */
+
+   .footer-socials {
+      padding: 10rem 10rem 10rem 8rem;
+   }
+
+   .footer-links {
+      font-size: 1.43rem;
+   }
+
+   .footer-info {
+      margin-left: 8.15rem;
+      width: 84%;
+   }
+}
+
+/* ------------------------------- */
+/*      BELLOW 550px (Phones)      */
+/* ------------------------------- */
+
+@media (max-width: 35em) {
+   /* -- GENERAL -- */
+
+   .container {
+      max-width: 90rem;
+      padding: 0 5.2rem;
+   }
+
+   .display-phone {
+      display: none;
+   }
+
+   .grid {
+      gap: 5rem;
+   }
+
+   .grid--cols-2 {
+      grid-template-columns: 1fr;
+   }
+
+   .paragraph-primary {
+      font-size: 1.8rem;
+      line-height: 1.5;
+   }
+
+   .heading-primary {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+   }
+
+   .heading-tertiary {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      margin-bottom: 0.5rem;
+   }
+
+   .heading-primary-thin {
+      margin-bottom: 7rem;
+   }
+
+   .heading-tertiary-thin {
+      font-weight: 500;
+      letter-spacing: 1.8px;
+   }
+
+   .margin-b-m {
+      margin-bottom: 4rem;
+   }
+
+   /* -- NAV -- */
+
+   .mobile-nav {
+      display: block;
+   }
+
+   .mobile-info {
+      background-color: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(5px);
+
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      z-index: 777;
+      transition: all 0.5s ease-in-out;
+
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      transform: translateX(100%);
+   }
+
+   .mobile-nav-ul {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 1.6px;
+      list-style: none;
+   }
+
+   .mobile-nav-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      gap: 4rem;
+      padding-top: 18rem;
+      z-index: 777;
+   }
+
+   /* NAV OPEN */
+
+   .nav-open .mobile-info {
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
+      transform: translateX(0);
+   }
+
+   .nav-open .icon-mobile-nav.burger {
+      display: none;
+   }
+
+   .nav-open .icon-mobile-nav.close {
+      display: block;
+   }
+
+   /* HAMBURGER AND CLOSE BUTTONS */
+
+   .btn-mobile-nav {
+      display: block !important;
+      border: none;
+      background: none;
+      cursor: pointer;
+   }
+
+   .icon-mobile-nav.burger {
+      display: block;
+      height: 5rem;
+      position: fixed;
+      top: 2rem;
+      right: 2rem;
+      z-index: 999;
+
+      filter: drop-shadow(0 0 0.4rem #fff);
+      cursor: pointer;
+      opacity: 70%;
+   }
+
+   .icon-mobile-nav.close {
+      display: none;
+      height: 6rem;
+      position: fixed;
+      top: 2rem;
+      right: 3rem;
+      z-index: 999;
+
+      filter: drop-shadow(0 0 0.4rem #fff);
+      cursor: pointer;
+      opacity: 70%;
+   }
+
+   .mobile-span {
+      height: 0.1rem;
+      background-color: #a8a8a8;
+      width: 31%;
+   }
+
+   .nav-socials {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      justify-self: end;
+      padding: 10rem 0 0 24.4rem;
+   }
+
+   .mobile-social {
+      font-size: 3.6rem;
+      opacity: 60%;
+   }
+
+   .mobile-logo {
+      width: 50%;
+   }
+
+   /* -- HERO -- */
+
+   .hero-section {
+      padding-top: 0;
+      overflow: hidden;
+      position: relative;
+   }
+
+   .hero-logo {
+      display: none;
+   }
+
+   .hero-logo2 {
+      position: absolute;
+      display: block;
+      width: 74%;
+
+      transform: translate(17%, 276%);
+      filter: drop-shadow(0 0 0.4rem #333);
+   }
+
+   .hero-img {
+      display: none;
+   }
+
+   .phone-hero-img {
+      width: 100vw;
+      display: block;
+   }
+
+   /* -- PLATFORM -- */
+
+   .platform-section {
+      padding-bottom: 4rem;
+   }
+
+   .platform-section span {
+      font-size: 1.8rem;
+      font-weight: 350;
+      margin-bottom: 0.5rem;
+   }
+
+   .platform-logos {
+      padding-top: 0;
+      gap: 7rem;
+      justify-content: space-around;
+      margin-left: 10rem;
+   }
+
+   .platform-img {
+      width: 220%;
+   }
+
+   .gamepass {
+      display: none;
+   }
+
+   /* -- INTRODUCTION -- */
+
+   .query-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+   }
+
+   .introduction-section {
+      height: 50rem;
+   }
+
+   .introduction-text {
+      margin-top: 6rem;
+      width: 97%;
+   }
+
+   .introduction-text h4 {
+      letter-spacing: 1px;
+   }
+
+   /* -- FEATURES -- */
+
+   .feature-section {
+      scroll-margin-top: -0.1rem;
+   }
+
+   .brush {
+      /* top: 11.1em;
+      right: 21.3rem; */
+      width: 30%;
+      transform: translate(96%, -375%);
+   }
+
+   .feature-cells {
+      gap: 4rem;
+   }
+
+   .feature-cell {
+      width: 45rem;
+   }
+
+   .feature-cell div {
+      height: 6rem;
+   }
+
+   .feature-cell div h3 {
+      font-size: 2.4rem;
+   }
+
+   /* -- STORY -- */
+
+   .story-section {
+      height: 48rem;
+      scroll-margin-top: 18rem;
+   }
+
+   .story-section div {
+      gap: 0;
+   }
+
+   .query-h2 {
+      font-size: 3.2rem;
+   }
+
+   .story-text {
+      margin-top: 8rem;
+   }
+
+   .display {
+      display: none;
+   }
+
+   /* -- EXPLORATION -- */
+
+   .exploration-section {
+      scroll-margin-top: 0;
+   }
+
+   .exp-p div {
+      width: 100%;
+   }
+
+   .brush-yellow {
+      width: 55%;
+      transform: translate(-43%, -258%) rotate(3deg);
+   }
+
+   .kamuro strong::before {
+      margin-top: -72rem;
+      margin-left: -94rem;
+      transform: scale(0.12);
+   }
+
+   .sotenbori strong::before {
+      margin-top: -74.6rem;
+      margin-left: -59rem;
+      transform: scale(0.16);
+   }
+
+   .exp-img {
+      gap: 3rem;
+   }
+
+   .query-p {
+      font-size: 2.2rem;
+      height: 11rem;
+      display: block;
+      text-align: center;
+   }
+
+   .query-exp {
+      display: none;
+   }
+
+   .modal1 {
+      top: 30rem;
+   }
+
+   .modal2 {
+      top: 30rem;
+   }
+
+   .modal-kamuro {
+      width: 55rem;
+   }
+
+   .modal-sotenbori {
+      width: 55rem;
+   }
+
+   .btn-close1 {
+      width: 10rem;
+      top: -10rem;
+   }
+
+   .btn-close2 {
+      width: 10rem;
+      top: -10rem;
+   }
+
+   /* -- GAMEPLAY -- */
+
+   .gameplay-section {
+      scroll-margin-top: 22rem;
+
+      height: 41rem;
+      background-image: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.3),
+            rgba(0, 0, 0, 0.7)
+         ),
+         url(/img/background/gameplay-bg.jpg);
+   }
+
+   .gameplay-text {
+      margin-top: 7rem;
+   }
+
+   /* -- MAIN CAST -- */
+
+   .main-cast-section {
+      scroll-margin-top: 0;
+   }
+
+   .main-cast-text {
+      margin: 1rem 0 0 7rem;
+      width: 82%;
+   }
+
+   .main-brush {
+      width: 115%;
+      transform: translate(-4%, 505%) rotate(-24deg);
+   }
+
+   .main-img {
+      width: 88%;
+   }
+
+   .heading-primary.main {
+      margin-bottom: 3rem;
+      font-size: 3.2rem;
+   }
+
+   .border-b {
+      font-size: 2.4rem;
+   }
+
+   .slider-container {
+      margin-top: 5rem;
+   }
+
+   .modal {
+      padding-top: 18rem;
+   }
+
+   .modal-content {
+      width: 60rem;
+   }
+
+   .btn-close {
+      height: 8rem;
+      transform: translate(51rem, -1rem);
+   }
+
+   /* -- SIDE CAST -- */
+
+   .character.jiro {
+      height: 40rem;
+   }
+
+   .character.ryuji {
+      height: 40rem;
+   }
+
+   .character.kaoru {
+      height: 40rem;
+   }
+
+   .paragraph-primary.bio {
+      font-size: 1.9rem;
+   }
+
+   .heading-secondary.name {
+      font-size: 3.2rem;
+      margin-bottom: 1.1rem;
+      padding-bottom: 0.6rem;
+   }
+
+   .character-text.middle {
+      width: 79%;
+      margin: 8rem 0 0 4rem;
+   }
+
+   .character-text {
+      margin: 4rem 0 0 3rem;
+      width: 83%;
+   }
+
+   .character-text.last {
+      margin-top: 8rem;
+   }
+
+   /* -- EDITIONS -- */
+
+   .edition-section {
+      height: 132rem;
+      scroll-margin-top: -0.1rem;
+   }
+
+   .no-gap {
+      gap: 7rem;
+   }
+
+   .cart-brush {
+      width: 33%;
+      transform: translate(81%, -267%);
+   }
+
+   .cart {
+      width: 36rem;
+   }
+
+   .cart-info {
+      height: 28rem;
+      font-size: 2.3rem;
+   }
+
+   .cart-info.gap {
+      gap: 0;
+   }
+
+   .cart-price {
+      padding: 1.7rem 0 0rem 0;
+   }
+
+   .cart-btn {
+      height: 8rem;
+   }
+
+   .cart-btn button {
+      font-weight: 450;
+      font-size: 3rem;
+   }
+
+   .l-e {
+      font-size: 1.7rem;
+      font-weight: 800;
+      top: 2.1rem;
+      right: -3.9rem;
+   }
+
+   /* -- GAME -- */
+
+   .game-section {
+      height: 31.4rem;
+      background-size: 64rem;
+      background-image: linear-gradient(
+            to left,
+            rgba(255, 255, 255, 0.15),
+            rgba(0, 0, 0, 0.9)
+         ),
+         url(/img/background/y7-mobile.jpg);
+   }
+
+   .y7-p {
+      display: none;
+   }
+
+   .game-text {
+      margin: 6.5rem 0 0 5rem;
+   }
+
+   .game-btn {
+      font-size: 1.8rem;
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+      align-self: auto;
+      width: 80%;
+   }
+
+   .p-q-font {
+      font-size: 1.8rem;
+   }
+
+   .p-q-h2 {
+      font-size: 3.4rem;
+      margin-bottom: 2rem;
+   }
+
+   .game-h4 {
+      font-size: 1.2rem;
+   }
+
+   /* -- CTA -- */
+
+   .cta-section {
+      height: 120rem;
+      scroll-margin-top: -0.1rem;
+   }
+
+   .ybrush {
+      width: 28%;
+      transform: translate(140%, -122%) rotate(1deg);
+   }
+
+   .cta-box {
+      flex-direction: column;
+      width: 85%;
+      max-width: 127rem;
+      border-radius: 6rem;
+      padding: 0;
+   }
+
+   .cta-content {
+      width: 100%;
+      gap: 3.5rem;
+      padding: 5rem;
+      border-top-left-radius: 6rem;
+      border-top-right-radius: 6rem;
+   }
+
+   .cta-content h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
+   }
+
+   .cta-img {
+      width: 100%;
+      border-bottom-left-radius: 6rem;
+      border-bottom-right-radius: 6rem;
+   }
+
+   .cta-first {
+      gap: 1rem;
+   }
+
+   .cta-btn {
+      width: 59%;
+   }
+
+   .cta-form {
+      gap: 0;
+   }
+
+   .cta-form input {
+      padding: 0.8rem;
+   }
+
+   .cta-form select {
+      padding: 0.8rem;
+   }
+
+   /* -- OTHER GAMES -- */
+
+   .games-section {
+      height: 36rem;
+   }
+
+   .game-logos {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 4rem 0 4rem;
+      gap: 3rem;
+   }
+
+   .yakuza7-logo {
+      width: 23rem;
+   }
+
+   .ishin-logo {
+      width: 18rem;
+   }
+
+   .judgment-logo {
+      width: 23rem;
+   }
+
+   .gaiden-logo {
+      width: 21rem;
+   }
+
+   /* -- FOOTER -- */
+
+   .footer {
+      height: 75rem;
+   }
+
+   .footer-line {
+      width: 1px;
+      height: 0.1rem;
+      width: 73%;
+      justify-self: center;
+      margin-bottom: 5rem;
+   }
+
+   .footer-logos {
+      gap: 5rem;
+      margin: 0 0 5rem 8rem;
+   }
+
+   .footer-main {
+      grid-template-columns: 1fr;
+   }
+
+   .footer-socials {
+      padding: 5rem;
+   }
+
+   .footer-socials p {
+      text-align: center;
+      padding-bottom: 1rem;
+   }
+
+   .footer-links {
+      font-size: 1.54rem;
+      align-items: center;
+   }
+
+   .footer-info {
+      margin-left: 8.15rem;
+      width: 76%;
+   }
+}

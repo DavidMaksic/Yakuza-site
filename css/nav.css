@@ -1,0 +1,146 @@
+/* ---------------------- */
+/*       NAVIGATION       */
+/* ---------------------- */
+
+.nav {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   position: fixed;
+   width: 100vw;
+   background-color: rgba(255, 255, 255, 0.97);
+
+   z-index: 777;
+
+   height: 7rem;
+   border-bottom: 1.9px solid #ebc943;
+}
+
+.nav-logo {
+   position: absolute;
+   width: 17%;
+   top: 0.5rem;
+   left: 2rem;
+   opacity: 90%;
+}
+
+/* -- NAV BUTTONS -- */
+
+.nav-ul {
+   display: flex;
+   justify-content: center;
+
+   font-size: 1.7rem;
+   font-weight: 400;
+   list-style: none;
+   letter-spacing: 1.6px;
+   margin-left: 4rem;
+}
+
+.nav-btns {
+   display: flex;
+   align-items: center;
+   gap: 6rem;
+}
+
+.nav-a.btn {
+   color: #fff;
+   background: linear-gradient(to right bottom, #ced4da, #adb5bd);
+   border: 1px solid #ced4da;
+   padding: 0.8rem 1.2rem;
+   border-radius: 1.5rem;
+   font-weight: 500;
+   transition: all 0.2s;
+}
+
+.nav-a.btn:hover {
+   text-shadow: 0 0 10px #fff, 0 0 15px #ebc943, 0 0 5px #ebc943;
+   background: linear-gradient(to right bottom, #dee2e6, #adb5bd);
+   box-shadow: none;
+   border: 1px solid #e0e0e0;
+}
+
+.nav-a {
+   color: #495057;
+   text-decoration: none;
+   transition: all 0.2s;
+}
+
+.nav-a:link {
+   display: inline;
+}
+
+.nav-a:hover {
+   color: #fff;
+   text-shadow: 0 0 10px #fff, 0 0 15px #cd0000, 0 0 5px #cd0000;
+}
+
+/* -- NAV SOCIALS -- */
+
+.nav-socials {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   justify-self: end;
+   padding-right: 4rem;
+}
+
+.nav-socials li {
+   list-style: none;
+}
+
+.nav-social {
+   font-size: 2.4rem;
+   color: #777;
+   cursor: pointer;
+   transition: all 0.1s;
+}
+
+.nav-social:hover {
+   color: #999;
+}
+
+.nav-social:active {
+   color: #999;
+}
+
+.nav-line {
+   background-color: #999;
+   width: 1px;
+   height: 3rem;
+   margin-right: 2rem;
+}
+
+/* -- NAV TRANSITION -- */
+
+.transition {
+   background-image: url(/img/bg-patterns/silver.jpg);
+   color: #000000;
+   opacity: 98%;
+}
+
+.transition .nav-logo.large {
+   width: 22%;
+   top: 1rem;
+   left: 3rem;
+   opacity: 100%;
+   transition: 0.5s ease;
+}
+
+.transition-back .nav-logo.back {
+   transition: 0.5s ease;
+}
+
+.transition .nav-a.color {
+   color: #555;
+   transition: 0.2s ease;
+}
+
+.transition .nav-a.color:hover {
+   color: #fff;
+}
+
+.transition .nav-a.btn.bg {
+   background: linear-gradient(to right bottom, #b5bcc4, #9da3aa);
+   border: 1px solid #b5bcc4;
+   transition: 0.3s ease;
+}

@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Yakuza site</title>
+
+      <!-- STYLE SHEETS -->
+
+      <link rel="stylesheet" href="css/general.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/queries.css" />
+      <link rel="stylesheet" href="css/nav.css" />
+
+      <!-- FONTS -->
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+         rel="stylesheet"
+      />
+
+      <!-- SOCIAL ICONS -->
+
+      <script
+         type="module"
+         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+         nomodule
+         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+   </head>
+
+   <body>
+      <div>
+         <!-- MODAL OVERLAY -->
+
+         <div class="overlay hidden"></div>
+
+         <!-- HEADER -->
+
+         <header class="header display-phone">
+            <nav class="nav">
+               <a href="#" class="nav-a">
+                  <img
+                     class="nav-logo large back"
+                     src="img/logos/hero-logo.png"
+                     alt="Yakuza logo"
+                  />
+               </a>
+
+               <ul class="nav-ul">
+                  <div class="nav-btns">
+                     <li>
+                        <a href="#" class="nav-a color">TOP</a>
+                     </li>
+                     <li>
+                        <a href="#feature" class="nav-a color">FEATURES</a>
+                     </li>
+                     <li>
+                        <a href="#purchase" class="nav-a color">PURCHASE</a>
+                     </li>
+                     <li>
+                        <a href="#trial" class="nav-a btn color bg"
+                           >FREE TRIAL</a
+                        >
+                     </li>
+                  </div>
+               </ul>
+               <div class="nav-socials">
+                  <div class="nav-line"></div>
+
+                  <li>
+                     <ion-icon
+                        class="nav-social"
+                        name="logo-instagram"
+                     ></ion-icon>
+                  </li>
+                  <li>
+                     <ion-icon
+                        class="nav-social"
+                        name="logo-twitter"
+                     ></ion-icon>
+                  </li>
+                  <li>
+                     <ion-icon
+                        class="nav-social"
+                        name="logo-facebook"
+                     ></ion-icon>
+                  </li>
+               </div>
+            </nav>
+         </header>
+
+         <!-- MOBILE NAVIGATION -->
+
+         <div class="mobile-nav">
+            <div class="mobile-info">
+               <ul class="mobile-nav-ul">
+                  <div class="mobile-nav-list">
+                     <img
+                        class="mobile-logo"
+                        src="img/logos/mobile-logo.png"
+                        alt="Yakuza logo"
+                     />
+
+                     <li>
+                        <a href="#" class="nav-a color">TOP</a>
+                     </li>
+                     <span class="mobile-span"></span>
+                     <li>
+                        <a href="#feature" class="nav-a color">FEATURES</a>
+                     </li>
+                     <span class="mobile-span"></span>
+                     <li>
+                        <a href="#purchase" class="nav-a color">PURCHASE</a>
+                     </li>
+                     <span class="mobile-span"></span>
+                     <li>
+                        <a href="#trial" class="nav-a btn color bg"
+                           >FREE TRIAL</a
+                        >
+                     </li>
+                  </div>
+               </ul>
+
+               <div class="nav-socials">
+                  <li>
+                     <ion-icon
+                        class="mobile-social"
+                        name="logo-instagram"
+                     ></ion-icon>
+                  </li>
+                  <li>
+                     <ion-icon
+                        class="mobile-social"
+                        name="logo-twitter"
+                     ></ion-icon>
+                  </li>
+                  <li>
+                     <ion-icon
+                        class="mobile-social"
+                        name="logo-facebook"
+                     ></ion-icon>
+                  </li>
+               </div>
+            </div>
+
+            <button class="btn-mobile-nav">
+               <img
+                  class="icon-mobile-nav burger"
+                  src="img/hamburger/burger2.png"
+                  alt="Hamburger"
+               />
+               <img
+                  class="icon-mobile-nav close"
+                  src="img/checkmarks/x-mark.png"
+                  alt="X mark"
+               />
+            </button>
+         </div>
+
+         <main>
+            <!---- HERO SECTION ---->
+
+            <section class="hero-section margin-b-s">
+               <div>
+                  <!-- DESKTOP LOGO -->
+                  <img
+                     class="hero-logo"
+                     src="img/logos/hero-logo2.png"
+                     alt="Main yakuza logo"
+                  />
+
+                  <!-- MOBILE LOGO -->
+                  <img
+                     class="hero-logo2"
+                     src="img/logos/hero-logo12.png"
+                     alt="Main yakuza logo"
+                  />
+
+                  <!-- DESKTOP BG -->
+                  <img
+                     class="hero-img"
+                     src="img/background/hero-bg.jpg"
+                     alt="Background image"
+                  />
+
+                  <!-- MOBILE BG -->
+                  <img
+                     class="phone-hero-img"
+                     src="img/background/mobile-hero-bg.jpg"
+                     alt="Background image"
+                  />
+               </div>
+            </section>
+
+            <!---- PLATFORM SECTION ---->
+
+            <section class="platform-section">
+               <span>Now avaliable on</span>
+               <div class="platform-logos">
+                  <a
+                     href="https://store.playstation.com/en-us/product/UP0177-CUSA10634_00-YAKUZAKIWAMI0002"
+                     target="blank"
+                  >
+                     <img
+                        class="platform-img"
+                        src="img/logos/ps4-logo.png"
+                        alt="Ps4 logo"
+                     />
+                  </a>
+
+                  <a
+                     href="https://www.xbox.com/en-GB/games/store/yakuza-kiwami-2/9PBJL0NLFMK9/0010"
+                     target="blank"
+                  >
+                     <img
+                        class="platform-img"
+                        src="img/logos/xbox-logo.png"
+                        alt="Xbox logo"
+                     />
+                  </a>
+
+                  <a
+                     href="https://store.steampowered.com/app/927380/Yakuza_Kiwami_2/"
+                     target="blank"
+                  >
+                     <img
+                        class="platform-img"
+                        src="img/logos/steam-logo.png"
+                        alt="Steam logo"
+                     />
+                  </a>
+
+                  <a
+                     href="https://www.xbox.com/en-GB/games/store/yakuza-kiwami-2/9PBJL0NLFMK9/0010"
+                     target="blank"
+                  >
+                     <img
+                        class="platform-img gamepass"
+                        src="img/logos/gamepass-logo.png"
+                        alt="GamePass logo"
+                     />
+                  </a>
+               </div>
+            </section>
+
+            <!-- INTRODUCTION SECTION -->
+
+            <section class="introduction-section">
+               <div class="container grid grid--cols-2 query-grid">
+                  <div></div>
+                  <div class="introduction-text">
+                     <h4 class="heading-tertiary">INTRODUCTION</h4>
+                     <h2 class="heading-primary query-h2">
+                        Fight as a legendary yakuza
+                     </h2>
+                     <p class="paragraph-primary">
+                        Yakuza 2 was released in 2008 for PlayStation®2, a
+                        sequel to the critically acclaimed Yakuza, following the
+                        journey of <strong>Kazuma Kiryu</strong> as he attempts
+                        to distance himself from the criminal underworld he was
+                        raised in.
+                     </p>
+                     <br />
+                     <br />
+                     <p class="paragraph-primary display">
+                        Ten years later, <strong>Yakuza Kiwami 2</strong> brings
+                        that world to PlayStation®4, completely rebuilt from the
+                        ground-up. In the tradition of 2017's Yakuza Kiwami, the
+                        envelope is pushed to the extreme, using the all-new
+                        <strong>Dragon Engine</strong> to update one of the
+                        series' stand-out titles into a modern classic.
+                     </p>
+                  </div>
+               </div>
+            </section>
+
+            <!---- FEATURE SECTION ---->
+
+            <section id="feature" class="feature-section padding-t-xl">
+               <div class="features container">
+                  <h4 class="heading-tertiary heading-tertiary-thin">
+                     FEATURES
+                  </h4>
+                  <h2 class="heading-primary heading-primary-thin">
+                     Dive into the world of yakuza
+                  </h2>
+                  <img
+                     class="brush"
+                     src="img/misc/brush.png"
+                     alt="Brush stroke"
+                  />
+                  <div class="feature-cells grid grid--cols-2">
+                     <a href="#story" class="feature-cell">
+                        <img
+                           class="feature-img"
+                           src="img/feature/feature-story.jpg"
+                           alt="Jiro holding a pistol"
+                        />
+                        <div>
+                           <h3 class="heading-secondary heading-secondary-thin">
+                              Uncover a conspiracy
+                           </h3>
+                        </div>
+                     </a>
+                     <a href="#exploration" class="feature-cell">
+                        <img
+                           class="feature-img"
+                           src="img/feature/feature-location.jpg"
+                           alt="Kamuro at night"
+                        />
+                        <div>
+                           <h3 class="heading-secondary heading-secondary-thin">
+                              Explore Diverse locations
+                           </h3>
+                        </div>
+                     </a>
+                     <a href="#gameplay" class="feature-cell">
+                        <img
+                           class="feature-img"
+                           src="img/feature/feature-battle3.jpg"
+                           alt="Battle scene"
+                        />
+                        <div>
+                           <h3 class="heading-secondary heading-secondary-thin">
+                              Engage in Rebuilt Combat
+                           </h3>
+                        </div>
+                     </a>
+                     <a href="#cast" class="feature-cell">
+                        <img
+                           class="feature-img"
+                           src="img/feature/feature-cast.jpg"
+                           alt="Kiryu and Kaoru"
+                        />
+                        <div>
+                           <h3 class="heading-secondary heading-secondary-thin">
+                              Meet new characters
+                           </h3>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </section>
+
+            <!---- STORY SECTION ---->
+
+            <section id="story" class="story-section margin-t-xl">
+               <div class="container grid grid--cols-2 query-grid">
+                  <div class="story-text">
+                     <h4 class="heading-tertiary">STORY</h4>
+                     <h2 class="heading-primary query-h2">
+                        Yakuza / Police thriller
+                     </h2>
+                     <p class="paragraph-primary">
+                        Kazuma Kiryu thought his Tojo Clan days were behind him.
+                        He and his young ward,
+                        <strong>Haruka Sawamura</strong>, have built a peaceful
+                        life from the ashes of conflict. All it took was a
+                        single gunshot to shatter that peace.
+                     </p>
+                     <br />
+                     <br />
+                     <p class="paragraph-primary display">
+                        Yukio Terada, the fifth chairman of the Tojo Clan, has
+                        been assassinated. With war on the horizon, the Dragon
+                        of Dojima is pulled back into the world he wanted to
+                        leave behind.
+                     </p>
+                     <div></div>
+                  </div>
+               </div>
+            </section>
+
+            <!---- EXPLORATION SECTION ---->
+
+            <section id="exploration" class="exploration-section padding-t-xl">
+               <div class="container">
+                  <div class="exp-heading">
+                     <h4 class="heading-tertiary heading-tertiary-thin">
+                        EXPLORATION
+                     </h4>
+                     <h2 class="heading-primary heading-primary-thin">
+                        Visit Beautiful Locations
+                     </h2>
+                     <img
+                        class="brush-yellow"
+                        src="img/misc/yellow.png"
+                        alt="Brush stroke"
+                     />
+                  </div>
+                  <div class="exp-img grid grid--cols-2 margin-b-m">
+                     <!-- MODAL 1 -->
+
+                     <img
+                        class="modal-btn modal-btn-open1"
+                        src="img/locations/l1.jpg"
+                        alt="Kamuro"
+                     />
+
+                     <div class="modal1 hidden">
+                        <img
+                           class="modal-kamuro"
+                           src="img/locations/l1.jpg"
+                           alt="Kamuro"
+                        />
+                        <img
+                           class="btn-close1"
+                           src="img/checkmarks/x-mark.png"
+                           alt="X mark"
+                        />
+                     </div>
+
+                     <p class="paragraph-primary kamuro query-p">
+                        Step into the glitzy
+                        <strong>Kamurocho</strong>, with its endless array of
+                        restaurants, bars, and activities.
+                     </p>
+
+                     <!-- MODAL 2 -->
+
+                     <img
+                        class="modal-btn modal-btn-open2"
+                        src="img/locations/l2.jpg"
+                        alt="Sotenbori"
+                     />
+
+                     <div class="modal2 hidden">
+                        <img
+                           class="modal-sotenbori"
+                           src="img/locations/l2.jpg"
+                           alt="Sotenbori"
+                        />
+                        <img
+                           class="btn-close2"
+                           src="img/checkmarks/x-mark.png"
+                           alt="X mark"
+                        />
+                     </div>
+
+                     <p class="paragraph-primary sotenbori query-p">
+                        Journey west to Osaka: Japan's other bustling center
+                        <strong>Sotenbori</strong>, newly recreated in the
+                        Dragon Engine to stunning effect.
+                     </p>
+                  </div>
+                  <div class="exp-p query-exp">
+                     <p class="paragraph-primary upper">
+                        Two Cities, Bustling With Life
+                     </p>
+                     <div>
+                        <p class="paragraph-primary kamuro">
+                           Step into the glitzy
+                           <strong>Kamurocho</strong>, with its endless array of
+                           restaurants, bars, and activities.
+                        </p>
+                        <p class="paragraph-primary sotenbori">
+                           Journey west to Osaka: Japan's other bustling center
+                           <strong>Sotenbori</strong>, newly recreated in the
+                           Dragon Engine to stunning effect.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!---- GAMEPLAY SECTION ---->
+
+            <section id="gameplay" class="gameplay-section margin-t-xl">
+               <div class="container grid grid--cols-2 query-grid">
+                  <div></div>
+                  <div class="gameplay-text">
+                     <h4 class="heading-tertiary">GAMEPLAY</h4>
+                     <h2 class="heading-primary query-h2">
+                        Refined next-gen combat
+                     </h2>
+                     <p class="paragraph-primary">
+                        Introduced in Yakuza 6: The Song of Life, the Dragon
+                        Engine's combat comes to Yakuza Kiwami 2 with all-new
+                        improvements and upgrades worthy of the word "kiwami".
+                     </p>
+                     <br />
+
+                     <p class="paragraph-primary display">
+                        From combo upgrades, to new charge attacks, to weapon
+                        storing, to new Heat Actions, beating down street thugs
+                        has never felt so satisfying.
+                     </p>
+                     <br />
+                     <p class="paragraph-primary display">
+                        Also featuring revamped melee system with new fluid
+                        animations.
+                     </p>
+                  </div>
+               </div>
+            </section>
+
+            <!---- MAIN CAST SECTION ---->
+
+            <section id="cast" class="main-cast-section">
+               <div class="main-cast grid grid--cols-2">
+                  <img
+                     class="main-brush"
+                     src="img/misc/altbrush.png"
+                     alt="Brush"
+                  />
+                  <div class="main-cast-text">
+                     <h4 class="heading-tertiary main">CAST</h4>
+                     <h2 class="heading-primary main">
+                        An All-star Cast Reprises Their Roles, As New Faces Come
+                        to Life
+                     </h2>
+                     <h3 class="border-b" class="heading-secondary">
+                        Kazuma Kiryu
+                     </h3>
+                     <p class="paragraph-primary main-p display">
+                        Kazuma Kiryu's role in the Tojo Clan's civil war that
+                        enveloped the yakuza world last year has earned him
+                        status as a legendary yakuza.
+                     </p>
+                     <span class="display">
+                        <br />
+                        <br />
+                     </span>
+                     <p class="paragraph-primary main-p">
+                        After inheriting the chairmanship of the clan and
+                        stepping down from it on the same day, he's gone off to
+                        live away from the yakuza life with Haruka Sawamura, the
+                        daughter of the woman he loved.
+                     </p>
+
+                     <!-- SLIDER -->
+
+                     <div class="slider-container">
+                        <img
+                           class="pointer pointer-left"
+                           src="img/misc/pointer-left.png"
+                           alt="Pointer"
+                        />
+
+                        <div>
+                           <!-- IMAGE 1 -->
+
+                           <div class="slider-item">
+                              <img
+                                 class="slider-img"
+                                 src="img/main-cast/kiryu1.jpg"
+                                 alt="Kiryu"
+                              />
+                           </div>
+
+                           <!-- IMAGE 2 -->
+
+                           <div class="slider-item">
+                              <img
+                                 class="slider-img"
+                                 src="img/main-cast/kiryu2.jpg"
+                                 alt="Kiryu"
+                              />
+                           </div>
+
+                           <!-- IMAGE 3 -->
+
+                           <div class="slider-item">
+                              <img
+                                 class="slider-img"
+                                 src="img/main-cast/kiryu3.jpg"
+                                 alt="Kiryu"
+                              />
+                           </div>
+
+                           <!-- SLIDER MODAL -->
+
+                           <div id="myModal" class="modal">
+                              <img
+                                 class="btn-close"
+                                 src="img/checkmarks/x-mark.png"
+                                 alt="X mark"
+                              />
+
+                              <img class="modal-content" id="img01" />
+                           </div>
+                        </div>
+
+                        <img
+                           class="pointer pointer-right"
+                           src="img/misc/pointer-right.png"
+                           alt="Pointer"
+                        />
+                     </div>
+                     <div class="black-dots">
+                        <img
+                           class="black-dot dot1"
+                           src="img/misc/black-dot.png"
+                           alt="Black dot"
+                        />
+                        <img
+                           class="black-dot dot2 current-dot"
+                           src="img/misc/black-dot.png"
+                           alt="Black dot"
+                        />
+                        <img
+                           class="black-dot dot3"
+                           src="img/misc/black-dot.png"
+                           alt="Black dot"
+                        />
+                     </div>
+                  </div>
+
+                  <img
+                     class="main-img"
+                     src="img/background/main-cast-img.png"
+                     alt="Kiryu"
+                  />
+               </div>
+            </section>
+
+            <!---- SIDE CAST SECTION ---->
+
+            <section class="side-cast-section">
+               <div>
+                  <div class="character jiro grid grid--cols-2 query-grid">
+                     <div></div>
+                     <div class="character-text">
+                        <h3 class="heading-secondary name">Jiro Kawara</h3>
+                        <p class="paragraph-primary bio">
+                           His level-headed nature is at odds with his spotty
+                           police record, where he earned the nickname "Killer
+                           Kawara" due to several of his investigations ending
+                           in fatal shootings.
+                           <span class="display"
+                              >An incident that occurred 20 years ago haunts him
+                              to this day.</span
+                           >
+                        </p>
+                     </div>
+                  </div>
+                  <div class="character ryuji grid grid--cols-2 query-grid">
+                     <div class="character-text middle">
+                        <h3 class="heading-secondary name">Ryuji Goda</h3>
+                        <p class="paragraph-primary bio">
+                           Son of the Omi Alliance chairman Jin Goda, Ryuji is
+                           an ambitious man aiming to leave his own mark on the
+                           yakuza world.
+                        </p>
+                        <br />
+                        <span class="display-phone">
+                           <br />
+                        </span>
+                        <p class="paragraph-primary bio display-phone">
+                           He follows a code all his own, making him a dangerous
+                           man capable of bringing his threats to fruition.
+                        </p>
+                     </div>
+                     <div></div>
+                  </div>
+                  <div class="character kaoru grid grid--cols-2 query-grid">
+                     <div></div>
+                     <div class="character-text last">
+                        <h3 class="heading-secondary name">Kaoru Sayama</h3>
+                        <p class="paragraph-primary bio p display-phone">
+                           A talented young police superstar rising through the
+                           ranks at incredible speed.
+                        </p>
+                        <div class="display-phone">
+                           <br />
+                           <br />
+                        </div>
+                        <p class="paragraph-primary bio">
+                           She is known for her ruthless takedowns of yakuza
+                           criminals, earning her the nickname, the "Yakuza
+                           Huntress."
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!---- EDITION SECTION ---->
+
+            <section id="purchase" class="edition-section padding-t-xl">
+               <div class="carts container">
+                  <h4 class="heading-tertiary heading-tertiary-thin">
+                     EDITIONS
+                  </h4>
+                  <h2 class="heading-primary heading-primary-thin">
+                     CHOOSE YOUR EDITION TODAY
+                  </h2>
+                  <img class="cart-brush" src="/img/misc/r12.png" alt="Brush" />
+                  <div class="grid grid--cols-2 no-gap">
+                     <div class="cart">
+                        <div class="cart-img first">
+                           <img
+                              class="cart-logo"
+                              src="/img/logos/cart-logo2.png"
+                              alt="Yakuza logo"
+                           />
+                        </div>
+                        <div class="cart-info gap">
+                           <img
+                              class="check"
+                              src="/img/checkmarks/check1.png"
+                              alt="Checkmark"
+                           />
+                           <span>Base game</span>
+                           <img
+                              class="check x"
+                              src="/img/checkmarks/x-mark.png"
+                              alt="Checkmark"
+                           />
+                           <span></span>
+                           <img
+                              class="check x"
+                              src="/img/checkmarks/x-mark.png"
+                              alt="Checkmark"
+                           />
+                           <span></span>
+                           <div class="cart-price">
+                              <p>50 <span>$</span></p>
+                           </div>
+                        </div>
+                        <div class="cart-btn left">
+                           <button>PURCHASE</button>
+                        </div>
+                     </div>
+                     <div class="cart">
+                        <span class="l-e"
+                           >LIMITED <span class="display">EDITION</span></span
+                        >
+                        <div class="cart-img second">
+                           <img
+                              class="cart-logo"
+                              src="/img/logos/hero-logo12.png"
+                              alt="Yakuza logo"
+                           />
+                        </div>
+                        <div class="cart-info">
+                           <img
+                              class="check"
+                              src="/img/checkmarks/check1.png"
+                              alt="Checkmark"
+                           />
+                           <span>Base game</span>
+                           <img
+                              class="check"
+                              src="/img/checkmarks/check1.png"
+                              alt="Checkmark"
+                           />
+                           <span>Limited Edition Steelbook®</span>
+                           <img
+                              class="check"
+                              src="/img/checkmarks/check1.png"
+                              alt="Checkmark"
+                           />
+                           <span>DLC's</span>
+                           <div class="cart-price other">
+                              <p>60 <span>$</span></p>
+                           </div>
+                        </div>
+                        <div class="cart-btn golden">
+                           <button>PURCHASE</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!---- NEW GAME SECTION ---->
+
+            <section class="game-section margin-t-xl">
+               <div class="grid grid--cols-2 query-grid">
+                  <div class="game-text">
+                     <h4 class="heading-tertiary game-h4">COMING SOON</h4>
+                     <h2 class="heading-primary p-q-h2">
+                        YAKUZA: LIKE A DRAGON
+                     </h2>
+                     <p class="paragraph-primary p-q-font y7-p">
+                        Experience dynamic RPG combat like none other. Switch
+                        between 19 unique Jobs ranging from Bodyguard to
+                        Musician, and use the battlefield as your weapon.
+                        <span class="display"
+                           >Take up bats, umbrellas, bikes, street signs, and
+                           everything else at your disposal to crack some
+                           skulls!</span
+                        >
+                     </p>
+                     <button class="game-btn">PRE-ORDER NOW</button>
+                  </div>
+               </div>
+               <div></div>
+            </section>
+
+            <!---- CTA SECTION ---->
+
+            <section id="trial" class="cta-section padding-t-xl">
+               <h4 class="heading-tertiary heading-tertiary-thin">
+                  FREE TRIAL
+               </h4>
+               <h2 class="heading-primary heading-primary-thin">
+                  TRY YAKUZA KIWAMI 2 FOR FREE
+               </h2>
+               <img
+                  class="ybrush"
+                  src="img/misc/ybrush.png"
+                  alt="Yellow brush"
+               />
+               <div class="cta-box container">
+                  <div class="cta-content">
+                     <div class="cta-first">
+                        <h3 class="heading-secondary heading-secondary-thin">
+                           Play the first two chapters of the story
+                        </h3>
+                        <p class="paragraph-primary cta-p">
+                           Trial lasts <strong>5 hours</strong>: progress is
+                           transfered to the full game.
+                        </p>
+                     </div>
+                     <div class="cta-form">
+                        <div class="cta-email">
+                           <label for="email">Email adress</label>
+                           <input
+                              id="email"
+                              type="email"
+                              placeholder="me@example.com"
+                           />
+                        </div>
+                        <div class="cta-platform">
+                           <label for="select-where"
+                              >Choose your platform</label
+                           >
+                           <select id="select-where">
+                              <option value="">Please choose one option</option>
+                              <option value="">PlayStation</option>
+                              <option value="">Xbox</option>
+                              <option value="">Steam</option>
+                           </select>
+                        </div>
+                     </div>
+                     <button class="cta-btn">DOWNLOAD NOW</button>
+                  </div>
+                  <img
+                     class="cta-img"
+                     src="img/background/cta-image.jpg"
+                     alt="Kiryu"
+                  />
+               </div>
+            </section>
+
+            <!---- OTHER GAMES SECTION ---->
+
+            <section class="games-section">
+               <span>Other avaliable games</span>
+               <div class="game-logos">
+                  <a
+                     href="https://www.xbox.com/en-us/games/store/yakuza-like-a-dragon/9nxcswcqtnfg/0010"
+                     target="blank"
+                  >
+                     <img
+                        class="yakuza7-logo"
+                        src="img/logos/yakuza7-logo.png"
+                        alt="Yakuza: Like a Dragon"
+                     />
+                  </a>
+                  <a
+                     href="https://www.xbox.com/en-us/games/store/like-a-dragon-ishin/9n4bh9fllmwd"
+                     target="blank"
+                  >
+                     <img
+                        class="ishin-logo"
+                        src="img/logos/ishin-logo.png"
+                        alt="Like a Dragon: Ishin"
+                     />
+                  </a>
+                  <a
+                     href="https://www.xbox.com/en-US/games/store/judgment/9N1R83CKGZJP"
+                     target="blank"
+                  >
+                     <img
+                        class="judgment-logo"
+                        src="img/logos/judgment-logo.png"
+                        alt="Judgment"
+                     />
+                  </a>
+                  <a
+                     href="https://www.xbox.com/en-us/games/store/like-a-dragon-gaiden-the-man-who-erased-his-name/9pcmwndppbfz"
+                     target="blank"
+                  >
+                     <img
+                        class="gaiden-logo"
+                        src="img/logos/gaiden-logo.png"
+                        alt="Gaiden"
+                     />
+                  </a>
+               </div>
+            </section>
+         </main>
+
+         <!---- FOOTER ---->
+
+         <footer class="footer">
+            <div class="footer-main grid--cols-3">
+               <div class="footer-socials">
+                  <p>Find us on</p>
+                  <div class="footer-socials-flex">
+                     <ion-icon
+                        class="footer-social"
+                        name="logo-instagram"
+                     ></ion-icon>
+                     <ion-icon
+                        class="footer-social"
+                        name="logo-twitter"
+                     ></ion-icon>
+                     <ion-icon
+                        class="footer-social"
+                        name="logo-facebook"
+                     ></ion-icon>
+                  </div>
+               </div>
+               <div class="footer-line"></div>
+
+               <div class="footer-logos">
+                  <img
+                     class="sega-logo"
+                     src="img/logos/sega-logo.png"
+                     alt="Sega logo"
+                  />
+                  <img
+                     class="developer-logo"
+                     src="img/logos/dev-logo.png"
+                     alt="Developer logo"
+                  />
+               </div>
+            </div>
+            <div class="footer-aside">
+               <div class="footer-links">
+                  <a class="display-phone" href="#">
+                     Sega games official website
+                  </a>
+                  <span class="display-phone">•</span>
+                  <a href="#"> Privacy policy </a>
+                  <span>•</span>
+                  <a href="#"> Cookie policy </a>
+                  <span>•</span>
+                  <a href="#"> Terms and conditions </a>
+                  <span class="display-phone">•</span>
+                  <a class="display-phone" href="#">
+                     End user license agreement
+                  </a>
+               </div>
+               <div class="footer-info">
+                  <p class="footer-p">
+                     © SEGA. SEGA, the SEGA logo and Yakuza are either
+                     registered trademarks or trademarks of SEGA Holdings Co.,
+                     Ltd. or its affiliates. All rights reserved. SEGA is
+                     registered in the U.S. Patent and Trademark Office. All
+                     other trademarks, logos and copyrights are property of
+                     their respective owners.
+                  </p>
+                  <p class="footer-p">
+                     “PlayStation family mark”, “PS4 logo” and “PlayStation” are
+                     registered trademarks or trademarks of Sony Interactive
+                     Entertainment Inc.
+                  </p>
+                  <p class="footer-p">
+                     The ESRB rating icons are registered trademarks of the
+                     Entertainment Software Association.
+                  </p>
+                  <p class="footer-p">
+                     SteelBook® is a trademark of Glud & Marstrand A/S.
+                  </p>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>

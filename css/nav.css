@@ -113,7 +113,7 @@
 /* -- NAV TRANSITION -- */
 
 .transition {
-   background-image: url(/img/bg-patterns/silver.jpg);
+   background-image: url(../img/bg-patterns/silver.jpg);
    color: #000000;
    opacity: 98%;
 }

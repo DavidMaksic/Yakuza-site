@@ -84,7 +84,7 @@
          rgba(255, 255, 255, 0.2),
          rgba(0, 0, 0, 0.8)
       ),
-      url(/img/background/introduction-bg.jpg);
+      url(..../img/background/introduction-bg.jpg);
    background-size: cover;
    background-position: center;
 
@@ -120,7 +120,7 @@
 
 .feature-cell {
    border-bottom: 1px solid #ebc943;
-   background-image: url('/img/bg-patterns/silver.jpg');
+   background-image: url('..../img/bg-patterns/silver.jpg');
    box-shadow: 0 0 2rem #e4e4e4;
    cursor: pointer;
    transition: all 0.3s;
@@ -186,7 +186,7 @@
          rgba(255, 255, 255, 0.1),
          rgba(0, 0, 0, 0.8)
       ),
-      url(/img/background/story-bg.jpg);
+      url(..../img/background/story-bg.jpg);
    background-size: cover;
 
    height: 108rem;
@@ -284,7 +284,7 @@
 }
 
 .kamuro strong::before {
-   content: url(/img/misc/kamuro-brush.png);
+   content: url(..../img/misc/kamuro-brush.png);
    position: absolute;
    margin-top: -64.5rem;
    margin-left: -85.6rem;
@@ -309,7 +309,7 @@
 }
 
 .sotenbori strong::before {
-   content: url(/img/misc/sotenbori-brush.png);
+   content: url(../img/misc/sotenbori-brush.png);
    position: absolute;
    margin-top: -67rem;
    margin-left: -43.5rem;
@@ -332,7 +332,7 @@
          rgba(255, 255, 255, 0.2),
          rgba(0, 0, 0, 0.8)
       ),
-      url(/img/background/gameplay-bg.jpg);
+      url(../img/background/gameplay-bg.jpg);
    background-size: cover;
    height: 108rem;
 
@@ -481,7 +481,7 @@
          rgba(255, 255, 255, 0.08),
          rgba(0, 0, 0, 0.4)
       ),
-      url(/img/side-cast/jiro.jpg);
+      url(../img/side-cast/jiro.jpg);
    background-size: cover;
    background-position: center;
 
@@ -495,7 +495,7 @@
          rgba(255, 255, 255, 0.1),
          rgba(0, 0, 0, 0.7)
       ),
-      url(/img/side-cast/ryuji.jpg);
+      url(../img/side-cast/ryuji.jpg);
    background-size: cover;
    background-position: center;
 
@@ -509,7 +509,7 @@
          rgba(255, 255, 255, 0.1),
          rgba(0, 0, 0, 0.9)
       ),
-      url(/img/side-cast/kaoru.jpg);
+      url(../img/side-cast/kaoru.jpg);
    background-size: cover;
    background-position: center;
 
@@ -586,7 +586,7 @@
          rgba(255, 255, 255, 0.1),
          rgba(0, 0, 0, 0.4)
       ),
-      url(/img/bg-patterns/silver.jpg);
+      url(../img/bg-patterns/silver.jpg);
    transition: all 0.2s;
    border-radius: 0 0 2rem 2rem;
 }
@@ -626,7 +626,7 @@
          rgba(255, 255, 255, 0.4),
          rgba(0, 0, 0, 0.4)
       ),
-      url(/img/bg-patterns/dark-silver.jpg);
+      url(../img/bg-patterns/dark-silver.jpg);
    background-size: cover;
    border-radius: 2rem 2rem 0 0;
 }
@@ -641,7 +641,7 @@
          rgba(255, 255, 255, 0.01),
          rgba(255, 255, 255, 0.2)
       ),
-      url(/img/bg-patterns/dark-gold.jpg);
+      url(../img/bg-patterns/dark-gold.jpg);
    border-radius: 2rem 2rem 0 0;
 }
 
@@ -651,7 +651,7 @@
          rgba(255, 255, 255, 0.05),
          rgba(255, 255, 255, 0.25)
       ),
-      url(/img/bg-patterns/gold.jpg);
+      url(../img/bg-patterns/gold.jpg);
 }
 
 .cart-logo {
@@ -732,7 +732,7 @@
          rgba(255, 255, 255, 0.15),
          rgba(0, 0, 0, 0.9)
       ),
-      url(/img/background/y7.jpg);
+      url(../img/background/y7.jpg);
    background-size: contain;
    background-repeat: no-repeat;
 }

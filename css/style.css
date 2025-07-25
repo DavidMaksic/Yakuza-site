@@ -84,7 +84,7 @@
          rgba(255, 255, 255, 0.2),
          rgba(0, 0, 0, 0.8)
       ),
-      url(..../img/background/introduction-bg.jpg);
+      url(../img/background/introduction-bg.jpg);
    background-size: cover;
    background-position: center;
 
@@ -120,7 +120,7 @@
 
 .feature-cell {
    border-bottom: 1px solid #ebc943;
-   background-image: url('..../img/bg-patterns/silver.jpg');
+   background-image: url('../img/bg-patterns/silver.jpg');
    box-shadow: 0 0 2rem #e4e4e4;
    cursor: pointer;
    transition: all 0.3s;
@@ -186,7 +186,7 @@
          rgba(255, 255, 255, 0.1),
          rgba(0, 0, 0, 0.8)
       ),
-      url(..../img/background/story-bg.jpg);
+      url(../img/background/story-bg.jpg);
    background-size: cover;
 
    height: 108rem;
@@ -284,7 +284,7 @@
 }
 
 .kamuro strong::before {
-   content: url(..../img/misc/kamuro-brush.png);
+   content: url(../img/misc/kamuro-brush.png);
    position: absolute;
    margin-top: -64.5rem;
    margin-left: -85.6rem;

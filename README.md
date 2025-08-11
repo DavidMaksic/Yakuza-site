@@ -6,6 +6,6 @@ Website is designed based on franchise's well known colors, with CSS tricks to m
 
 <br>
 
-You can check out the [live demo here](https://davidmaksic.github.io/Yakuza-site/).
+You can check out [the live demo here](https://davidmaksic.github.io/Yakuza-site/).
 
 ![main image](https://davidmaksic.vercel.app/assets/yakuza-entire-page-CJkk6MG4.webp)

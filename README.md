@@ -4,6 +4,8 @@ Yakuza Kiwami 2 website is a redesign based on the original website showcasing S
 
 Website is designed based on franchise's well known colors, with CSS tricks to make the design more appealing. Features responsive design to make the browsing possible on many devices.
 
+<br>
+
 You can check out the [live demo here](https://davidmaksic.github.io/Yakuza-site/).
 
 ![main image](https://davidmaksic.vercel.app/assets/yakuza-entire-page-CJkk6MG4.webp)

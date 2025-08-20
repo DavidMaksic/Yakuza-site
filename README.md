@@ -4,7 +4,7 @@ Yakuza Kiwami 2 website is a redesign based on the original website showcasing S
 
 Website is designed based on franchise's well known colors, with CSS tricks to make the design more appealing. Features responsive design to make the browsing possible on many devices.
 
-To install this project, run it using the Live Server extension.
+To run this project, use the Live Server extension in VS Code.
 
 <br>
 
